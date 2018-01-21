@@ -1,9 +1,9 @@
 /*! Instagram.css v0.1.3 | MIT License | github.com/picturepan2/instagram.css */
-[class*="filter"] {
+[data-filter] {
   position: relative;
 }
 
-[class*="filter"]::before {
+[data-filter]::before {
   display: block;
   height: 100%;
   left: 0;
@@ -13,14 +13,14 @@
   z-index: 1;
 }
 
-[data-filter=1977] {
-  -webkit-filter: sepia(.5) hue-rotate(-30deg) saturate(1.4);
-  filter: sepia(.5) hue-rotate(-30deg) saturate(1.4);
+[data-filter="1977"] {
+  -webkit-filter: sepia(.5) hue-rotate(-30deg) saturate(1.4) !important;
+  filter: sepia(.5) hue-rotate(-30deg) saturate(1.4) !important;
 }
 
 [data-filter=aden] {
-  -webkit-filter: sepia(.2) brightness(1.15) saturate(1.4);
-  filter: sepia(.2) brightness(1.15) saturate(1.4);
+  -webkit-filter: sepia(.2) brightness(1.15) saturate(1.4) !important;
+  filter: sepia(.2) brightness(1.15) saturate(1.4) !important;
 }
 
 [data-filter=aden]::before {
@@ -30,8 +30,8 @@
 }
 
 [data-filter=amaro] {
-  -webkit-filter: sepia(.35) contrast(1.1) brightness(1.2) saturate(1.3);
-  filter: sepia(.35) contrast(1.1) brightness(1.2) saturate(1.3);
+  -webkit-filter: sepia(.35) contrast(1.1) brightness(1.2) saturate(1.3) !important;
+  filter: sepia(.35) contrast(1.1) brightness(1.2) saturate(1.3) !important;
 }
 
 [data-filter=amaro]::before {
@@ -41,8 +41,8 @@
 }
 
 [data-filter=ashby] {
-  -webkit-filter: sepia(.5) contrast(1.2) saturate(1.8);
-  filter: sepia(.5) contrast(1.2) saturate(1.8);
+  -webkit-filter: sepia(.5) contrast(1.2) saturate(1.8) !important;
+  filter: sepia(.5) contrast(1.2) saturate(1.8) !important;
 }
 
 [data-filter=ashby]::before {
@@ -52,13 +52,13 @@
 }
 
 [data-filter=brannan] {
-  -webkit-filter: sepia(.4) contrast(1.25) brightness(1.1) saturate(.9) hue-rotate(-2deg);
-  filter: sepia(.4) contrast(1.25) brightness(1.1) saturate(.9) hue-rotate(-2deg);
+  -webkit-filter: sepia(.4) contrast(1.25) brightness(1.1) saturate(.9) hue-rotate(-2deg) !important;
+  filter: sepia(.4) contrast(1.25) brightness(1.1) saturate(.9) hue-rotate(-2deg) !important;
 }
 
 [data-filter=brooklyn] {
-  -webkit-filter: sepia(.25) contrast(1.25) brightness(1.25) hue-rotate(5deg);
-  filter: sepia(.25) contrast(1.25) brightness(1.25) hue-rotate(5deg);
+  -webkit-filter: sepia(.25) contrast(1.25) brightness(1.25) hue-rotate(5deg) !important;
+  filter: sepia(.25) contrast(1.25) brightness(1.25) hue-rotate(5deg) !important;
 }
 
 [data-filter=brooklyn]::before {
@@ -68,8 +68,8 @@
 }
 
 [data-filter=charmes] {
-  -webkit-filter: sepia(.25) contrast(1.25) brightness(1.25) saturate(1.35) hue-rotate(-5deg);
-  filter: sepia(.25) contrast(1.25) brightness(1.25) saturate(1.35) hue-rotate(-5deg);
+  -webkit-filter: sepia(.25) contrast(1.25) brightness(1.25) saturate(1.35) hue-rotate(-5deg) !important;
+  filter: sepia(.25) contrast(1.25) brightness(1.25) saturate(1.35) hue-rotate(-5deg) !important;
 }
 
 [data-filter=charmes]::before {
@@ -79,8 +79,8 @@
 }
 
 [data-filter=clarendon] {
-  -webkit-filter: sepia(.15) contrast(1.25) brightness(1.25) hue-rotate(5deg);
-  filter: sepia(.15) contrast(1.25) brightness(1.25) hue-rotate(5deg);
+  -webkit-filter: sepia(.15) contrast(1.25) brightness(1.25) hue-rotate(5deg) !important;
+  filter: sepia(.15) contrast(1.25) brightness(1.25) hue-rotate(5deg) !important;
 }
 
 [data-filter=clarendon]::before {
@@ -90,8 +90,8 @@
 }
 
 [data-filter=crema] {
-  -webkit-filter: sepia(.5) contrast(1.25) brightness(1.15) saturate(.9) hue-rotate(-2deg);
-  filter: sepia(.5) contrast(1.25) brightness(1.15) saturate(.9) hue-rotate(-2deg);
+  -webkit-filter: sepia(.5) contrast(1.25) brightness(1.15) saturate(.9) hue-rotate(-2deg) !important;
+  filter: sepia(.5) contrast(1.25) brightness(1.15) saturate(.9) hue-rotate(-2deg) !important;
 }
 
 [data-filter=crema]::before {
@@ -101,13 +101,13 @@
 }
 
 [data-filter=dogpatch] {
-  -webkit-filter: sepia(.35) saturate(1.1) contrast(1.5);
-  filter: sepia(.35) saturate(1.1) contrast(1.5);
+  -webkit-filter: sepia(.35) saturate(1.1) contrast(1.5) !important;
+  filter: sepia(.35) saturate(1.1) contrast(1.5) !important;
 }
 
 [data-filter=earlybird] {
-  -webkit-filter: sepia(.25) contrast(1.25) brightness(1.15) saturate(.9) hue-rotate(-5deg);
-  filter: sepia(.25) contrast(1.25) brightness(1.15) saturate(.9) hue-rotate(-5deg);
+  -webkit-filter: sepia(.25) contrast(1.25) brightness(1.15) saturate(.9) hue-rotate(-5deg) !important;
+  filter: sepia(.25) contrast(1.25) brightness(1.15) saturate(.9) hue-rotate(-5deg) !important;
 }
 
 [data-filter=earlybird]::before {
@@ -120,8 +120,8 @@
 }
 
 [data-filter=gingham] {
-  -webkit-filter: contrast(1.1) brightness(1.1);
-  filter: contrast(1.1) brightness(1.1);
+  -webkit-filter: contrast(1.1) brightness(1.1) !important;
+  filter: contrast(1.1) brightness(1.1) !important;
 }
 
 [data-filter=gingham]::before {
@@ -131,8 +131,8 @@
 }
 
 [data-filter=ginza] {
-  -webkit-filter: sepia(.25) contrast(1.15) brightness(1.2) saturate(1.35) hue-rotate(-5deg);
-  filter: sepia(.25) contrast(1.15) brightness(1.2) saturate(1.35) hue-rotate(-5deg);
+  -webkit-filter: sepia(.25) contrast(1.15) brightness(1.2) saturate(1.35) hue-rotate(-5deg) !important;
+  filter: sepia(.25) contrast(1.15) brightness(1.2) saturate(1.35) hue-rotate(-5deg) !important;
 }
 
 [data-filter=ginza]::before {
@@ -142,8 +142,8 @@
 }
 
 [data-filter=hefe] {
-  -webkit-filter: sepia(.4) contrast(1.5) brightness(1.2) saturate(1.4) hue-rotate(-10deg);
-  filter: sepia(.4) contrast(1.5) brightness(1.2) saturate(1.4) hue-rotate(-10deg);
+  -webkit-filter: sepia(.4) contrast(1.5) brightness(1.2) saturate(1.4) hue-rotate(-10deg) !important;
+  filter: sepia(.4) contrast(1.5) brightness(1.2) saturate(1.4) hue-rotate(-10deg) !important;
 }
 
 [data-filter=hefe]::before {
@@ -156,8 +156,8 @@
 }
 
 [data-filter=helena] {
-  -webkit-filter: sepia(.5) contrast(1.05) brightness(1.05) saturate(1.35);
-  filter: sepia(.5) contrast(1.05) brightness(1.05) saturate(1.35);
+  -webkit-filter: sepia(.5) contrast(1.05) brightness(1.05) saturate(1.35) !important;
+  filter: sepia(.5) contrast(1.05) brightness(1.05) saturate(1.35) !important;
 }
 
 [data-filter=helena]::before {
@@ -167,8 +167,8 @@
 }
 
 [data-filter=hudson] {
-  -webkit-filter: sepia(.25) contrast(1.2) brightness(1.2) saturate(1.05) hue-rotate(-15deg);
-  filter: sepia(.25) contrast(1.2) brightness(1.2) saturate(1.05) hue-rotate(-15deg);
+  -webkit-filter: sepia(.25) contrast(1.2) brightness(1.2) saturate(1.05) hue-rotate(-15deg) !important;
+  filter: sepia(.25) contrast(1.2) brightness(1.2) saturate(1.05) hue-rotate(-15deg) !important;
 }
 
 [data-filter=hudson]::before {
@@ -181,13 +181,13 @@
 }
 
 [data-filter=inkwell] {
-  -webkit-filter: brightness(1.25) contrast(.85) grayscale(1);
-  filter: brightness(1.25) contrast(.85) grayscale(1);
+  -webkit-filter: brightness(1.25) contrast(.85) grayscale(1) !important;
+  filter: brightness(1.25) contrast(.85) grayscale(1) !important;
 }
 
 [data-filter=juno] {
-  -webkit-filter: sepia(.35) contrast(1.15) brightness(1.15) saturate(1.8);
-  filter: sepia(.35) contrast(1.15) brightness(1.15) saturate(1.8);
+  -webkit-filter: sepia(.35) contrast(1.15) brightness(1.15) saturate(1.8) !important;
+  filter: sepia(.35) contrast(1.15) brightness(1.15) saturate(1.8) !important;
 }
 
 [data-filter=juno]::before {
@@ -197,8 +197,8 @@
 }
 
 [data-filter=kelvin] {
-  -webkit-filter: sepia(.15) contrast(1.5) brightness(1.1) hue-rotate(-10deg);
-  filter: sepia(.15) contrast(1.5) brightness(1.1) hue-rotate(-10deg);
+  -webkit-filter: sepia(.15) contrast(1.5) brightness(1.1) hue-rotate(-10deg) !important;
+  filter: sepia(.15) contrast(1.5) brightness(1.1) hue-rotate(-10deg) !important;
 }
 
 [data-filter=kelvin]::before {
@@ -211,18 +211,18 @@
 }
 
 [data-filter=lark] {
-  -webkit-filter: sepia(.25) contrast(1.2) brightness(1.3) saturate(1.25);
-  filter: sepia(.25) contrast(1.2) brightness(1.3) saturate(1.25);
+  -webkit-filter: sepia(.25) contrast(1.2) brightness(1.3) saturate(1.25) !important;
+  filter: sepia(.25) contrast(1.2) brightness(1.3) saturate(1.25) !important;
 }
 
 [data-filter=lofi] {
-  -webkit-filter: saturate(1.1) contrast(1.5);
-  filter: saturate(1.1) contrast(1.5);
+  -webkit-filter: saturate(1.1) contrast(1.5) !important;
+  filter: saturate(1.1) contrast(1.5) !important;
 }
 
 [data-filter=ludwig] {
-  -webkit-filter: sepia(.25) contrast(1.05) brightness(1.05) saturate(2);
-  filter: sepia(.25) contrast(1.05) brightness(1.05) saturate(2);
+  -webkit-filter: sepia(.25) contrast(1.05) brightness(1.05) saturate(2) !important;
+  filter: sepia(.25) contrast(1.05) brightness(1.05) saturate(2) !important;
 }
 
 [data-filter=ludwig]::before {
@@ -232,8 +232,8 @@
 }
 
 [data-filter=maven] {
-  -webkit-filter: sepia(.35) contrast(1.05) brightness(1.05) saturate(1.75);
-  filter: sepia(.35) contrast(1.05) brightness(1.05) saturate(1.75);
+  -webkit-filter: sepia(.35) contrast(1.05) brightness(1.05) saturate(1.75) !important;
+  filter: sepia(.35) contrast(1.05) brightness(1.05) saturate(1.75) !important;
 }
 
 [data-filter=maven]::before {
@@ -243,8 +243,8 @@
 }
 
 [data-filter=mayfair] {
-  -webkit-filter: contrast(1.1) brightness(1.15) saturate(1.1);
-  filter: contrast(1.1) brightness(1.15) saturate(1.1);
+  -webkit-filter: contrast(1.1) brightness(1.15) saturate(1.1) !important;
+  filter: contrast(1.1) brightness(1.15) saturate(1.1) !important;
 }
 
 [data-filter=mayfair]::before {
@@ -257,13 +257,13 @@
 }
 
 [data-filter=moon] {
-  -webkit-filter: brightness(1.4) contrast(.95) saturate(0) sepia(.35);
-  filter: brightness(1.4) contrast(.95) saturate(0) sepia(.35);
+  -webkit-filter: brightness(1.4) contrast(.95) saturate(0) sepia(.35) !important;
+  filter: brightness(1.4) contrast(.95) saturate(0) sepia(.35) !important;
 }
 
 [data-filter=nashville] {
-  -webkit-filter: sepia(.25) contrast(1.5) brightness(.9) hue-rotate(-15deg);
-  filter: sepia(.25) contrast(1.5) brightness(.9) hue-rotate(-15deg);
+  -webkit-filter: sepia(.25) contrast(1.5) brightness(.9) hue-rotate(-15deg) !important;
+  filter: sepia(.25) contrast(1.5) brightness(.9) hue-rotate(-15deg) !important;
 }
 
 [data-filter=nashville]::before {
@@ -276,8 +276,8 @@
 }
 
 [data-filter=perpetua] {
-  -webkit-filter: contrast(1.1) brightness(1.25) saturate(1.1);
-  filter: contrast(1.1) brightness(1.25) saturate(1.1);
+  -webkit-filter: contrast(1.1) brightness(1.25) saturate(1.1) !important;
+  filter: contrast(1.1) brightness(1.25) saturate(1.1) !important;
 }
 
 [data-filter=perpetua]::before {
@@ -291,8 +291,8 @@
 }
 
 [data-filter=poprocket] {
-  -webkit-filter: sepia(.15) brightness(1.2);
-  filter: sepia(.15) brightness(1.2);
+  -webkit-filter: sepia(.15) brightness(1.2) !important;
+  filter: sepia(.15) brightness(1.2) !important;
 }
 
 [data-filter=poprocket]::before {
@@ -305,13 +305,13 @@
 }
 
 [data-filter=reyes] {
-  -webkit-filter: sepia(.75) contrast(.75) brightness(1.25) saturate(1.4);
-  filter: sepia(.75) contrast(.75) brightness(1.25) saturate(1.4);
+  -webkit-filter: sepia(.75) contrast(.75) brightness(1.25) saturate(1.4) !important;
+  filter: sepia(.75) contrast(.75) brightness(1.25) saturate(1.4) !important;
 }
 
 [data-filter=rise] {
-  -webkit-filter: sepia(.25) contrast(1.25) brightness(1.2) saturate(.9);
-  filter: sepia(.25) contrast(1.25) brightness(1.2) saturate(.9);
+  -webkit-filter: sepia(.25) contrast(1.25) brightness(1.2) saturate(.9) !important;
+  filter: sepia(.25) contrast(1.25) brightness(1.2) saturate(.9) !important;
 }
 
 [data-filter=rise]::before {
@@ -324,8 +324,8 @@
 }
 
 [data-filter=sierra] {
-  -webkit-filter: sepia(.25) contrast(1.5) brightness(.9) hue-rotate(-15deg);
-  filter: sepia(.25) contrast(1.5) brightness(.9) hue-rotate(-15deg);
+  -webkit-filter: sepia(.25) contrast(1.5) brightness(.9) hue-rotate(-15deg) !important;
+  filter: sepia(.25) contrast(1.5) brightness(.9) hue-rotate(-15deg) !important;
 }
 
 [data-filter=sierra]::before {
@@ -338,13 +338,13 @@
 }
 
 [data-filter=skyline] {
-  -webkit-filter: sepia(.15) contrast(1.25) brightness(1.25) saturate(1.2);
-  filter: sepia(.15) contrast(1.25) brightness(1.25) saturate(1.2);
+  -webkit-filter: sepia(.15) contrast(1.25) brightness(1.25) saturate(1.2) !important;
+  filter: sepia(.15) contrast(1.25) brightness(1.25) saturate(1.2) !important;
 }
 
 [data-filter=slumber] {
-  -webkit-filter: sepia(.35) contrast(1.25) saturate(1.25);
-  filter: sepia(.35) contrast(1.25) saturate(1.25);
+  -webkit-filter: sepia(.35) contrast(1.25) saturate(1.25) !important;
+  filter: sepia(.35) contrast(1.25) saturate(1.25) !important;
 }
 
 [data-filter=slumber]::before {
@@ -354,8 +354,8 @@
 }
 
 [data-filter=stinson] {
-  -webkit-filter: sepia(.35) contrast(1.25) brightness(1.1) saturate(1.25);
-  filter: sepia(.35) contrast(1.25) brightness(1.1) saturate(1.25);
+  -webkit-filter: sepia(.35) contrast(1.25) brightness(1.1) saturate(1.25) !important;
+  filter: sepia(.35) contrast(1.25) brightness(1.1) saturate(1.25) !important;
 }
 
 [data-filter=stinson]::before {
@@ -365,8 +365,8 @@
 }
 
 [data-filter=sutro] {
-  -webkit-filter: sepia(.4) contrast(1.2) brightness(.9) saturate(1.4) hue-rotate(-10deg);
-  filter: sepia(.4) contrast(1.2) brightness(.9) saturate(1.4) hue-rotate(-10deg);
+  -webkit-filter: sepia(.4) contrast(1.2) brightness(.9) saturate(1.4) hue-rotate(-10deg) !important;
+  filter: sepia(.4) contrast(1.2) brightness(.9) saturate(1.4) hue-rotate(-10deg) !important;
 }
 
 [data-filter=sutro]::before {
@@ -379,8 +379,8 @@
 }
 
 [data-filter=toaster] {
-  -webkit-filter: sepia(.25) contrast(1.5) brightness(.95) hue-rotate(-15deg);
-  filter: sepia(.25) contrast(1.5) brightness(.95) hue-rotate(-15deg);
+  -webkit-filter: sepia(.25) contrast(1.5) brightness(.95) hue-rotate(-15deg) !important;
+  filter: sepia(.25) contrast(1.5) brightness(.95) hue-rotate(-15deg) !important;
 }
 
 [data-filter=toaster]::before {
@@ -393,8 +393,8 @@
 }
 
 [data-filter=valencia] {
-  -webkit-filter: sepia(.25) contrast(1.1) brightness(1.1);
-  filter: sepia(.25) contrast(1.1) brightness(1.1);
+  -webkit-filter: sepia(.25) contrast(1.1) brightness(1.1) !important;
+  filter: sepia(.25) contrast(1.1) brightness(1.1) !important;
 }
 
 [data-filter=valencia]::before {
@@ -404,8 +404,8 @@
 }
 
 [data-filter=vesper] {
-  -webkit-filter: sepia(.35) contrast(1.15) brightness(1.2) saturate(1.3);
-  filter: sepia(.35) contrast(1.15) brightness(1.2) saturate(1.3);
+  -webkit-filter: sepia(.35) contrast(1.15) brightness(1.2) saturate(1.3) !important;
+  filter: sepia(.35) contrast(1.15) brightness(1.2) saturate(1.3) !important;
 }
 
 [data-filter=vesper]::before {
@@ -415,8 +415,8 @@
 }
 
 [data-filter=walden] {
-  -webkit-filter: sepia(.35) contrast(.8) brightness(1.25) saturate(1.4);
-  filter: sepia(.35) contrast(.8) brightness(1.25) saturate(1.4);
+  -webkit-filter: sepia(.35) contrast(.8) brightness(1.25) saturate(1.4) !important;
+  filter: sepia(.35) contrast(.8) brightness(1.25) saturate(1.4) !important;
 }
 
 [data-filter=walden]::before {
@@ -426,13 +426,13 @@
 }
 
 [data-filter=willow] {
-  -webkit-filter: brightness(1.2) contrast(.85) saturate(.05) sepia(.2);
-  filter: brightness(1.2) contrast(.85) saturate(.05) sepia(.2);
+  -webkit-filter: brightness(1.2) contrast(.85) saturate(.05) sepia(.2) !important;
+  filter: brightness(1.2) contrast(.85) saturate(.05) sepia(.2) !important;
 }
 
 [data-filter=xpro]-ii {
-  -webkit-filter: sepia(.45) contrast(1.25) brightness(1.75) saturate(1.3) hue-rotate(-5deg);
-  filter: sepia(.45) contrast(1.25) brightness(1.75) saturate(1.3) hue-rotate(-5deg);
+  -webkit-filter: sepia(.45) contrast(1.25) brightness(1.75) saturate(1.3) hue-rotate(-5deg) !important;
+  filter: sepia(.45) contrast(1.25) brightness(1.75) saturate(1.3) hue-rotate(-5deg) !important;
 }
 
 [data-filter=xpro]-ii::before {
